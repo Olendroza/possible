@@ -6,10 +6,11 @@ import './App.css';
 function App() {
   return (
     <div className='App'>
+      <div className='content'>
       <header className='header'>
         <div className='header_content'>
-          <h1 className='header_item'> POSSIBLE </h1>
-          <h3 className='header_item'> 10 styczeń 2019</h3>
+          <p className='header_title'> POSSIBLE </p>
+          <p className='header_date'> 10 styczeń 2019</p>
         </div>
       </header>
       <main>
@@ -29,7 +30,7 @@ function App() {
             veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br/> 
             <br/>
             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+             Excepteur sint occaecat cupidatat non proident.
           </p>
           <h2> MEET THE TEAM</h2>
           <img src={meetTheTeam}></img>
@@ -42,14 +43,17 @@ function App() {
         </div>
       </main>
       <nav>
-      <button className='nav_bar_button'> Our company </button>
-      <button className='nav_bar_button'> Our work </button>
-      <button className='nav_bar_button'> Information </button>
-      <button className='nav_bar_button'> Join our newsletter </button>
-      <button className='nav_bar_button'> Email this page </button>
-      <button className='nav_bar_button'> Print this page </button>
-      <button className='nav_bar_button'> Contact us </button>
+        <div className='nav_content'>
+          <button className='nav_bar_button'> Our company </button>
+          <button className='nav_bar_button'> Our work </button>
+          <button className='nav_bar_button'> Information </button>
+          <button className='nav_bar_button'> Join our newsletter </button>
+          <button className='nav_bar_button'> Email this page </button>
+          <button className='nav_bar_button'> Print this page </button>
+          <button className='nav_bar_button'> Contact us </button>
+      </div>
       </nav>
+      </div>
     </div>
   );
 }
