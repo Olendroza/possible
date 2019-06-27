@@ -6,10 +6,10 @@ import './App.css';
 function App() {
   return (
     <div className='App'>
-      <header className='Header'>
-        <div className='Header_content'>
-          <h1> POSSIBLE </h1>
-          <h3> 10 styczeń 2019</h3>
+      <header className='header'>
+        <div className='header_content'>
+          <h1 className='header_item'> POSSIBLE </h1>
+          <h3 className='header_item'> 10 styczeń 2019</h3>
         </div>
       </header>
       <main>
@@ -36,6 +36,7 @@ function App() {
           </div>
           <div className='hero_sidebar'>
           <h1>LOREM IPSUM</h1>
+          <img src={map}></img>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </p>
           </div>
         </div>
