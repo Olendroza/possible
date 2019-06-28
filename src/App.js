@@ -3,6 +3,7 @@ import map from './img/map.png';
 import meetTheTeam from './img/meettheteam.png'
 import logo from './img/logo.png'
 import './App.css';
+import { Gallery } from './components/gallery/gallery'
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       <header className='header'>
         <div className='header_content'>
           <p className='header_title'> <img src={logo}/> </p>
-          <p className='header_date'> 10 styczeń 2019</p>
+          <p className='header_date'> 10 February 2010</p>
         </div>
       </header>
       <main>
@@ -34,6 +35,7 @@ function App() {
              Excepteur sint occaecat cupidatat non proident.
           </p>
           <h5> MEET THE TEAM</h5>
+          <Gallery/>
           <img src={meetTheTeam}></img>
           </div>
           <div className='hero_sidebar'>
@@ -41,6 +43,7 @@ function App() {
             <p className='hero_sidebar_item_title'>LOREM IPSUM</p>
             <img src={map}></img>
             <p className='hero_sidebar_item_desc'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </p>
+            
             </div>
           </div>
         </div>
