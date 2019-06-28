@@ -1,6 +1,7 @@
 import React from 'react';
 import map from './img/map.png';
 import meetTheTeam from './img/meettheteam.png'
+import logo from './img/logo.png'
 import './App.css';
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
       <div className='content'>
       <header className='header'>
         <div className='header_content'>
-          <p className='header_title'> POSSIBLE </p>
+          <p className='header_title'> <img src={logo}/> </p>
           <p className='header_date'> 10 styczeń 2019</p>
         </div>
       </header>

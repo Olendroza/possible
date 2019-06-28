@@ -7,15 +7,16 @@ display: flex;
 justify-content: center;
 }
 .content{
-  background: grey;
+  background: #737373;
   width: 1024px;
   align-self: center;
 }
 header{
 width: 1024px;
-background: rgb(68, 63, 63);
+background: #303030;
 }
 .header_content{
+padding-top: 32px;
 margin-left: 80px;
 margin-right: 80px;
 display: flex;
@@ -25,13 +26,12 @@ align-items: flex-end;
 
 }
 .header_title{
-  font-size: 200%;
-  margin-bottom: 0px;
-  padding-bottom: 16px;
+  margin-bottom: 8px;
 }
 .header_date{
-  margin-bottom: 0px;
-  padding-bottom: 16px;
+  color:#CDCDCD;
+  margin-bottom: 8px;
+
 }
 .hero_top_bar_button{
   color: white;
@@ -66,6 +66,7 @@ padding: 16px;
 }
 .hero_sidebar{
   padding: 16px;
+  background: #F2F2F2;
 
 }
 nav{
