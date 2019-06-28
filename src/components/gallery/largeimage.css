@@ -1,0 +1,15 @@
+.LargeImage_info_container{
+    width: 470px;
+    background-color:rgba(0, 0, 0, 0.5);
+}
+.LargeImage_info_name{
+font-weight: 600;
+color: white;
+margin: 2px;
+padding-left: 16px;
+}
+.LargeImage_info_desc{
+color: white;
+margin:2px;
+padding-left: 16px;
+}
