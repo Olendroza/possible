@@ -52,9 +52,14 @@ font-size:2.75ex;
 display: flex;
 justify-content: space-between;
 flex-direction: row;
-padding: 16px;
+padding: 6px;
 }
 .hero_top_bar_button{
+  font-size: 0.6em;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 .hero_content_container{
   background:white;
@@ -63,6 +68,9 @@ padding: 16px;
 .hero_content{
   flex-grow: 3;
   margin:24px
+}
+.hero_content_text{
+  font-size: 0.8em;
 }
 .hero_sidebar{
   padding: 16px;
@@ -103,4 +111,10 @@ nav{
   outline:none;
 
   margin: 8px;
+}
+
+
+#clickedButton{
+  background: black;
+  color: #1D9ED9;
 }

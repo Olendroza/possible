@@ -16,7 +16,7 @@ function App() {
       </header>
       <main>
         <div className='hero_top_bar'>
-          <button className='hero_top_bar_button'> OUR COMPANY </button>
+          <button id='clickedButton' className='hero_top_bar_button'> OUR COMPANY </button>
           <button className='hero_top_bar_button'> OUR WORK </button>
           <button className='hero_top_bar_button'> INFORMATION </button>
           <button className='hero_top_bar_button'> CONTACT US </button>
@@ -24,8 +24,8 @@ function App() {
           <div className='hero_content_container'>
           
           <div className='hero_content'>
-          <h1> Welcome to Possible </h1>
-          <p>
+          <h2> Welcome to Possible </h2>
+          <p className='hero_content_text'>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
             veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br/> 
@@ -33,7 +33,7 @@ function App() {
             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
              Excepteur sint occaecat cupidatat non proident.
           </p>
-          <h2> MEET THE TEAM</h2>
+          <h5> MEET THE TEAM</h5>
           <img src={meetTheTeam}></img>
           </div>
           <div className='hero_sidebar'>
