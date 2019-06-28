@@ -1,6 +1,5 @@
 import React from 'react';
 import map from './img/map.png';
-import meetTheTeam from './img/meettheteam.png'
 import logo from './img/logo.png'
 import './App.css';
 import { Gallery } from './components/gallery/gallery'
@@ -36,7 +35,6 @@ function App() {
           </p>
           <h5> MEET THE TEAM</h5>
           <Gallery/>
-          <img src={meetTheTeam}></img>
           </div>
           <div className='hero_sidebar'>
             <div className='hero_sidebar_item'>
