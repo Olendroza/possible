@@ -37,9 +37,11 @@ function App() {
           <img src={meetTheTeam}></img>
           </div>
           <div className='hero_sidebar'>
-          <h1>LOREM IPSUM</h1>
-          <img src={map}></img>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </p>
+            <div className='hero_sidebar_item'>
+            <p className='hero_sidebar_item_title'>LOREM IPSUM</p>
+            <img src={map}></img>
+            <p className='hero_sidebar_item_desc'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </p>
+            </div>
           </div>
         </div>
       </main>

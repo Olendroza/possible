@@ -66,8 +66,17 @@ padding: 16px;
 }
 .hero_sidebar{
   padding: 16px;
+  padding-top:60px;
   background: #F2F2F2;
-
+  color: #1D9ED9;
+}
+.hero_sidebar_item_title{
+  text-decoration: overline;
+  font-weight: 700;
+  font-size: 0.8em;
+}
+.hero_sidebar_item_desc{
+  font-size: 0.7em;
 }
 nav{
   width: 1024;
