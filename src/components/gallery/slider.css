@@ -7,13 +7,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: blue;
+    background: linear-gradient(to bottom, #808080 0%, #d3d3d3 85%);
 }
 .Slider_person{
     width: 50px;
     height: 50px;
 }
 .Slider_person_image{
+    border: solid;
+    border-color: #1D9ED9;
     width: 50px;
     height: 50px;
     
