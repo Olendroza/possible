@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './largeImage.css'
+import './largeimage.css'
 
 
 function LargeImage(props) {

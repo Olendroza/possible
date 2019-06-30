@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import employees from '../../img/employees/employess';
 import LargImage from './largImage';
 import Slider from './slider'
-
+import employeesInfo from './employeesInfo'
 
 
 export class Gallery extends Component{
@@ -20,8 +20,8 @@ export class Gallery extends Component{
         return (
           <div className='gallery_container'>
                 <LargImage person={{image:employees[this.state.enlargedImage],
-                            name:'piotr',
-                            desc: 'pracownik'}} />
+                            name:employeesInfo[this.state.enlargedImage].name,
+                            desc:employeesInfo[this.state.enlargedImage].desc}} />
                 <Slider onImageChosed={this.enlargeImage}/>
 
           </div>
